@@ -60,5 +60,4 @@ The model generates a CSV file:
 result.csv
 ```
 Each row contains:
--Image name
--Predicted probabilities for all 12 classes
+Image name & Predicted probabilities for all 12 classes
