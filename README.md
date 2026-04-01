@@ -1,6 +1,6 @@
 # reCAPTCHA Image Classification using CNN (ResNet18)
 ## Overview
-This project implements an image classification model to solve reCAPTCHA-style tasks, as part of the *Machine Learning I (WS 2025/2026)* course at KIT.
+This project implements an image classification model to solve reCAPTCHA-style tasks.
 
 The goal is to classify images into 12 categories (e.g., Bus, Car, Bicycle, Traffic Light), demonstrating that modern machine learning models can outperform traditional CAPTCHA assumptions.
 
@@ -41,6 +41,24 @@ To address class imbalance, a higher loss weight was assigned to the **Motorcycl
 
 ## Usage
 
+### load training dataset and test dataset
+```bash
+train_val.zip
+```
+```bash
+test.zip
+```
+
 ### Train the model
 ```bash
-python train.py
+train.ipynb
+```
+
+### output
+The model generates a CSV file:
+```bash
+result.csv
+```
+Each row contains:
+-Image name
+-Predicted probabilities for all 12 classes
