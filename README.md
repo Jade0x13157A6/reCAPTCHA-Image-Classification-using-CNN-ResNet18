@@ -1,1 +1,1 @@
-# reCAPTCHA-Image-Classification-using-Machine-Learning
+# reCAPTCHA Image Classification using CNN (ResNet18)
